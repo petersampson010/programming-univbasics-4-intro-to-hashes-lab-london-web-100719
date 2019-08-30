@@ -17,7 +17,8 @@ end
 
 def my_hash_creator(key, value)
   hash = Hash.new
-  hash[:key] = "#{value}"
+  key = key7
+  hash[:key7] = "#{value}"
   return hash
 end
 
