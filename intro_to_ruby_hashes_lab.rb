@@ -5,6 +5,7 @@ end
 
 def my_hash
   validHash = [holiday: "spain", car: "Bigboy"]
+  return validHash
 end
 
 def pioneer
