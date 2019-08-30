@@ -4,20 +4,19 @@ def new_hash
 end
 
 def my_hash
-  validHash = [holiday: "spain", car: "Bigboy"]
-  return validHash
+  validHash = {holiday: "spain", car: "Bigboy"}
 end
 
 def pioneer
-  hash = [name: "Grace Hooper"]
+  hash = {name: "Grace Hooper"}
 end
 
 def id_generator
-  hash = [id: 4]
+  hash = {id: 4}
 end
 
 def my_hash_creator(key, value)
-  hash = [key: value]
+  hash = {key: value}
 end
 
 def read_from_hash(hash, key)
